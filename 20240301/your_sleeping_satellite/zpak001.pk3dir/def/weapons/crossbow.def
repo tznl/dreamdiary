@@ -1,0 +1,53 @@
+entityDef weapon_crossbow
+{
+	"editor_color"		".3 .3 1"
+	"editor_mins"		"-16 -16 -16"
+	"editor_maxs"		"16 16 16"
+	"editor_usage"		"Crossbow"
+	"editor_rotatable"	"1"
+
+	"spawnclass"		"NSItem"
+	"model"				"models/w_crossbow.mdl"
+	"inv_item"			"$WEAPON_CROSSBOW"
+	"snd_acquire"		"weapon.pickup"
+	"snd_respawn"		"item.respawn"
+}
+
+entityDef projectile_arrow
+{
+	"spawnclass"		"NSProjectile"
+	"model"				"models/crossbow_bolt.mdl"
+	"velocity"			"2000 0 0"
+	"angular_velocity"	"0 0 20"
+	"mins"				"0 0 0"
+	"maxs"				"0 0 0"
+	"def_damage"		"damage_arrowDirect"
+	"model_detonate"	"fx_spark.main"
+	"snd_explode"		"fx.spark"
+	"detonate_on_fuse"	"0"
+	"detonate_on_death"	"1"
+	"detonate_on_world"	"1"
+	"detonate_on_actor"	"1"
+}
+
+entityDef damage_arrowDirect
+{
+	"damage"	"skill:plr_xbow_bolt_monster"
+}
+
+entityDef projectile_arrowExplosive
+{
+	"inherit"			"projectile_arrow"
+	"smoke_fly"			"weapon_crossbow.trail"
+	"def_damage"		""
+	"def_splash_damage"	"damage_arrowSplash"
+	"model_detonate"	"fx_explosion.main"
+	"snd_explode"		"fx.explosion"
+	"decal_detonate"	"ExplosionScorch"
+}
+
+entityDef damage_arrowSplash
+{
+	"damage"	"skill:plr_xbow_bolt_monster"
+	"radius"	"125"
+}
