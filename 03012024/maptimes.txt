@@ -1,0 +1,2 @@
+"your_sleeping_satellite/maps/03012024_2.bsp" 12.5819721 12.5819721 0 0
+"your_sleeping_satellite/maps/03012024.bsp" 7.99657965 7.99657965 0 0

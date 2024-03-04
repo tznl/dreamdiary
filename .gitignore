@@ -1,0 +1,7 @@
+**/fteqw
+**/fteqw-gl
+**/fteqcc
+**/*.exe
+**/*.zip
+**/*.lno
+**/*.dat

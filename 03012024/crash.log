@@ -1,0 +1,23 @@
+Time: 2024-03-03 20:00:11
+Ver: 1.07
+Revision: git-6497-1c201c032, 2023-09-19
+./fteqw(+0xb3a8d)[0x55c0bc7cca8d]
+./fteqw(+0xec96f)[0x55c0bc80596f]
+./fteqw(+0xecb2d)[0x55c0bc805b2d]
+./fteqw(+0xef42e)[0x55c0bc80842e]
+./fteqw(+0xc7b67)[0x55c0bc7e0b67]
+./fteqw(+0xf2081)[0x55c0bc80b081]
+./fteqw(+0xf2d2f)[0x55c0bc80bd2f]
+./fteqw(+0xf7e00)[0x55c0bc810e00]
+./fteqw(+0x410356)[0x55c0bcb29356]
+./fteqw(+0x620802)[0x55c0bcd39802]
+./fteqw(+0x64038c)[0x55c0bcd5938c]
+./fteqw(+0x64065d)[0x55c0bcd5965d]
+./fteqw(+0x4251c4)[0x55c0bcb3e1c4]
+./fteqw(+0xfa94e)[0x55c0bc81394e]
+./fteqw(+0x3c4054)[0x55c0bcadd054]
+./fteqw(+0x1413e1)[0x55c0bc85a3e1]
+/lib64/libc.so.6(+0x23eea)[0x7fbc198aaeea]
+/lib64/libc.so.6(__libc_start_main+0x85)[0x7fbc198aafa5]
+./fteqw(+0x710a1)[0x55c0bc78a0a1]
+
