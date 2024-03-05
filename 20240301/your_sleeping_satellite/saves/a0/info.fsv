@@ -1,5 +1,5 @@
 25000
-_______________________________________2024-03-03_17:54:01
+_______________________________________2024-03-05_06:06:42
 1
 Player
 {
@@ -7,11 +7,11 @@ Player
 	parm1 0x0 //0
 	parm2 0x0 //0
 	parm3 0x0 //0
-	parm4 0xc2b5f770 //-90.9832764
+	parm4 0x0 //0
 	parm5 0x0 //0
 	parm6 0x0 //0
 	parm7 0x0 //0
-	parm8 0xc30fffff //-143.999985
+	parm8 0x0 //0
 	parm9 0x0 //0
 	parm10 0x0 //0
 	parm11 0x0 //0
@@ -66,10 +66,10 @@ Player
 	parm60 0x0 //0
 	parm61 0x0 //0
 	parm62 0x0 //0
-	parm63 0x49908040 //1183752
+	parm63 0x41000000 //8
 	parm_string ""
 }
-\maxclients\8\maxspectators\8\hostname\FreeHL Server\maxpitch\89\minpitch\-89\pm_edgefriction\1\mode\Default\background\0\sv_playerslots\1\votes_y\0\votes_n\0\phy_stepheight\18\phy_friction\4\phy_edgefriction\1\phy_stopspeed\100\phy_gravity\800\phy_airaccelerate\10\phy_wateraccelerate\10\phy_accelerate\10\phy_maxspeed\270\phy_noclipspeed\500\phy_noclipaccelerate\5\startdark\0\gametitle\0\hdr\0\map\03012024_3\phy_nospeedcap\1\mapname\03012024_3\teamplay\0\skill\1
+\maxclients\8\maxspectators\8\hostname\FreeHL Server\maxpitch\89\minpitch\-89\pm_edgefriction\1\mode\Default\background\0\sv_playerslots\1\votes_y\0\votes_n\0\phy_stepheight\18\phy_friction\4\phy_edgefriction\1\phy_stopspeed\100\phy_gravity\800\phy_airaccelerate\10\phy_wateraccelerate\10\phy_accelerate\10\phy_maxspeed\270\phy_noclipspeed\500\phy_noclipaccelerate\5\startdark\0\chaptertitle\soittisi satelliitti\gametitle\0\hdr\0\scorepoints\0\teams\0\map\20240301\mapname\20240301\teamplay\0\skill\1
 
 {
 skill			"1"
@@ -95,5 +95,5 @@ set nextserver		""
 }
 {
 }
-03012024_3
+20240301
 0
