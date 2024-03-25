@@ -8,3 +8,5 @@
 /map 03012024
 /screenshot_mega test 1920 1080
 /screenshot_mega shot 1920 1080
+noclip
+noclip

@@ -2437,7 +2437,7 @@ default
 
 348 // SURFACE_FACE V: 4 I: 6 planar
 {
-	shader textures/test/maiden
+	shader textures/test/20240310
 	lightmapAxis ( -1.000000 0.000000 0.000000 )
 }
 
