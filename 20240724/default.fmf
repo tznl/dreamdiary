@@ -1,0 +1,11 @@
+FTEMANIFEST 1
+NAME "lets_go_to_church"
+BASEGAME lets_go_to_church
+
+// you don't really want to change these
+RTCBROKER master.frag-net.com:27950
+PROTOCOLNAME "Nuclide"
+MAINCONFIG nuclide.cfg
+DOWNLOADSURL ""
+
+-exec platform_default.cfg
