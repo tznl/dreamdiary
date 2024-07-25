@@ -1,6 +1,6 @@
 FTEMANIFEST 1
-NAME "your sleeping satellite"
-BASEGAME your_sleeping_satellite
+NAME "your singing satellite"
+BASEGAME your_singing_satellite
 
 // you don't really want to change these
 RTCBROKER master.frag-net.com:27950
